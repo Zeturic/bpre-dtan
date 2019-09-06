@@ -2,7 +2,7 @@
 
 #define MON_DATA_NICKNAME           2
 
-struct packed Pokemon
+struct PACKED Pokemon
 {
     u8 unk_0[100];
 };

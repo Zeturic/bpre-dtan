@@ -1,13 +1,13 @@
 #pragma once
 
-struct packed Struct2031DAC
+struct PACKED Struct2031DAC
 {
     u8 unk_0[238];
     bool8 isLinkTrade;
     u8 unk_EF[33];
 };
 
-struct packed InGameTrade
+struct PACKED InGameTrade
 {
     u8 name[11];
     u8 unk_B[32];

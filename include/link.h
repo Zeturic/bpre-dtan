@@ -1,6 +1,6 @@
 #pragma once
 
-struct packed LinkPlayer
+struct PACKED LinkPlayer
 {
     u8 unk_0[8];
     u8 name[11];

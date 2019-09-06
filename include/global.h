@@ -2,7 +2,7 @@
 
 #include "gba/gba.h"
 
-#define packed __attribute__((packed))
-#define naked __attribute__((naked))
+#define PACKED __attribute__((packed))
+#define NAKED __attribute__((naked))
 
 #define PARTY_SIZE 6
