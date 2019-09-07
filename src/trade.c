@@ -13,7 +13,6 @@ void SetTradeSceneStrings(void)
      */
     u8 mpId;
     u8 name[20];
-    const struct InGameTrade *ingameTrade;
 
     if (gUnknown_02031DAC->isLinkTrade)
     {

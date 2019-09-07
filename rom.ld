@@ -23,5 +23,3 @@ gUnknown_02031DAC = 0x02031DAC;
 
 gSpecialVar_0x8004 = 0x020370C0;
 gSpecialVar_0x8005 = 0x020370C2;
-
-gIngameTrades = 0x0826CF8C;
