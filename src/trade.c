@@ -26,9 +26,11 @@ void SetTradeSceneStrings(void)
     }
     else
     {
-        ingameTrade = &gIngameTrades[gSpecialVar_0x8004];
-        StringCopy(gStringVar1, ingameTrade->otName);
-        StringCopy10(gStringVar3, ingameTrade->name);
+        if (gSpecialVar_0x8004 != CUSTOM_TRADER_NAME)
+            GetMonData(&gEnemyParty[0], MON_DATA_OT_NAME, gStringVar1);
+
+        GetMonData(&gEnemyParty[0], MON_DATA_NICKNAME, name);
+        StringCopy10(gStringVar3, name);
         GetMonData(&gPlayerParty[gSpecialVar_0x8005], MON_DATA_NICKNAME, name);
         StringCopy10(gStringVar2, name);
     }

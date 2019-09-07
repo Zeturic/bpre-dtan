@@ -1,6 +1,7 @@
 #pragma once
 
 #define MON_DATA_NICKNAME           2
+#define MON_DATA_OT_NAME            7
 
 struct PACKED Pokemon
 {
