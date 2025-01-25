@@ -10,7 +10,7 @@
 
 .org 0x08050E24
 .area 0xF0, 0xFE
-    ldr r3, =SetTradeSceneStrings |1
+    ldr r3, =TradeBufferOTnameAndNicknames |1
     bx r3
     .pool
 .endarea
